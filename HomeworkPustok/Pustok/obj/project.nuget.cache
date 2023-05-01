@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LqWipT7e5ibDuyHpu4tFtIwkh1/7Pdfm1HpugdFjCG02auvNGfZPCrRUCyaG+pJRlkrD3fxJJorIgObmAe7XEA==",
+  "dgSpecHash": "F1Kgue9mBXm6B5z3PZfKu4yZFMpNlKONPETmC8dSr6g8jD6o5zXzaMTaOzjNHneutKXikuIlK/8H/+b7AF5ayQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maqsud\\Desktop\\HomeworkPustok\\Pustok\\Pustok.csproj",
+  "projectFilePath": "C:\\Users\\Maqsud\\Desktop\\Backend\\Homeworks\\Homework-20-Pustok-Backend-\\HomeworkPustok\\Pustok\\Pustok.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maqsud\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Maqsud\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

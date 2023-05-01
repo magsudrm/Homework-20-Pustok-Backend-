@@ -244,7 +244,7 @@ namespace Pustok.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Authors");
+                    b.ToTable("Authors", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.BasketItem", b =>
@@ -270,7 +270,7 @@ namespace Pustok.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.ToTable("BasketItems");
+                    b.ToTable("BasketItems", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.Book", b =>
@@ -329,7 +329,7 @@ namespace Pustok.Migrations
 
                     b.HasIndex("GenreId");
 
-                    b.ToTable("Books");
+                    b.ToTable("Books", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.BookImage", b =>
@@ -353,7 +353,7 @@ namespace Pustok.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.ToTable("BookImages");
+                    b.ToTable("BookImages", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.BookReview", b =>
@@ -387,7 +387,7 @@ namespace Pustok.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.ToTable("BookReviews");
+                    b.ToTable("BookReviews", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.BookTag", b =>
@@ -402,7 +402,7 @@ namespace Pustok.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("BookTags");
+                    b.ToTable("BookTags", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.Feature", b =>
@@ -428,7 +428,7 @@ namespace Pustok.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Features");
+                    b.ToTable("Features", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.Genre", b =>
@@ -446,7 +446,7 @@ namespace Pustok.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Genres");
+                    b.ToTable("Genres", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.Order", b =>
@@ -504,7 +504,7 @@ namespace Pustok.Migrations
 
                     b.HasIndex("AppUserId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.OrderItem", b =>
@@ -539,7 +539,7 @@ namespace Pustok.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("OrderItems");
+                    b.ToTable("OrderItems", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.Setting", b =>
@@ -554,7 +554,7 @@ namespace Pustok.Migrations
 
                     b.HasKey("Key");
 
-                    b.ToTable("Settings");
+                    b.ToTable("Settings", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.Slider", b =>
@@ -596,7 +596,7 @@ namespace Pustok.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sliders");
+                    b.ToTable("Sliders", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.Tag", b =>
@@ -612,7 +612,7 @@ namespace Pustok.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tags");
+                    b.ToTable("Tags", (string)null);
                 });
 
             modelBuilder.Entity("Pustok.Models.AppUser", b =>
